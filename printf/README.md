@@ -124,7 +124,6 @@ Numbers are printed with **recursion**: a function divides the number by the bas
 AI was used as a support tool during this project, for the following tasks:
 
 - Explaining how to convert a number to hexadecimal and how `va_arg` works
-- Reviewing my code to find mistakes (typos, Norm errors, a missing `else` in the main loop, wrong arguments passed to `ft_next`)
 - Helping with the structure of the Makefile and of the README
 
-I reviewed, tested and understood the final code, and I can explain every part of it.
+I reviewed, tested and understood the final code.

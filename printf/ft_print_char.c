@@ -3,14 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_char.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mesh <mesh@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: bsarkoez <bsarkoez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 13:34:54 by bsarkoez          #+#    #+#             */
-/*   Updated: 2026/10/26 21:14:27 by mesh             ###   ########.fr       */
+/*   Updated: 2026/10/27 13:44:27 by bsarkoez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+size_t	ft_strlen(const char *str)
+{
+	size_t	i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
 
 void	ft_putstr(char *s, int *count)
 {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mesh <mesh@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: bsarkoez <bsarkoez@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/19 13:02:40 by bsarkoez          #+#    #+#             */
-/*   Updated: 2026/10/26 21:47:03 by mesh             ###   ########.fr       */
+/*   Updated: 2026/10/27 13:43:06 by bsarkoez         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include "unistd.h"
 # include "stdlib.h"
 # include "stdarg.h"
-# include "./libft/libft.h"
 
 # include <stdarg.h>
 # include <unistd.h>
